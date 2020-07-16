@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258367626}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96ee5e82c9a452e43a2d9eb3bbfa472e, type: 3}
   m_Name: 
@@ -2697,6 +2697,11 @@ PrefabInstance:
       propertyPath: levelName
       value: Nivel3
       objectReference: {fileID: 0}
+    - target: {fileID: 8082711534761866676, guid: 4874702b364c78345a0f9804cc72238e,
+        type: 3}
+      propertyPath: follow
+      value: 
+      objectReference: {fileID: 1012039718}
     - target: {fileID: 8082711534949567441, guid: 4874702b364c78345a0f9804cc72238e,
         type: 3}
       propertyPath: m_LocalPosition.x
