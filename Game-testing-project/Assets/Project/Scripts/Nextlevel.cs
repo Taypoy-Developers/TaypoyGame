@@ -23,7 +23,7 @@ public class Nextlevel : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Puerta && Input.GetKey("e") && follow.transform.childCount == 0 )
+        if (Puerta && follow.transform.childCount == 0 )
         {
             SceneManager.LoadScene(levelName);
         }

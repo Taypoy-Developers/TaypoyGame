@@ -202,7 +202,7 @@ Canvas:
   m_GameObject: {fileID: 986171}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -436,6 +436,7 @@ GameObject:
   - component: {fileID: 258367631}
   - component: {fileID: 258367632}
   - component: {fileID: 258367634}
+  - component: {fileID: 258367635}
   m_Layer: 0
   m_Name: AgenteCovid
   m_TagString: Player
@@ -562,7 +563,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258367626}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96ee5e82c9a452e43a2d9eb3bbfa472e, type: 3}
   m_Name: 
@@ -614,15 +615,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 258367626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0993741621befe840ae4853e2f5cf0f3, type: 3}
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &258367635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258367626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f56837a6603fb44f8d473484365cae3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 1411735800}
-  MejorSalto: 0
-  fallMultiplayer: 0.5
-  lowMultiplayer: 1
   caminar: 2
-  saltar: 3
+  saltar: 5
   spriterenderer: {fileID: 258367629}
   anima: {fileID: 258367632}
 --- !u!1 &268408653
@@ -1913,7 +1923,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 258367634}
+      - m_Target: {fileID: 258367635}
         m_MethodName: Jump
         m_Mode: 1
         m_Arguments:
@@ -2501,8 +2511,8 @@ Canvas:
   m_GameObject: {fileID: 1437673858}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1488444326}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

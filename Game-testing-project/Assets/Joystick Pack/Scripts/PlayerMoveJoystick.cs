@@ -14,7 +14,7 @@ public class PlayerMoveJoystick : MonoBehaviour
     Rigidbody2D Personaje;
 
     public float caminar = 1.25f;
-    public float saltar = 3f;
+    public float saltar = 5f;
 
     float posX, posY;
     public SpriteRenderer spriterenderer;
