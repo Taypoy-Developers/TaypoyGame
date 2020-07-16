@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Threading;
+using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class NewBehaviourScript : MonoBehaviour
 {
     private float horizontalMove = 0f;
