@@ -631,8 +631,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 1411735800}
-  caminar: 2
-  saltar: 5
+  caminar: 2.5
+  saltar: 11
   spriterenderer: {fileID: 258367629}
   anima: {fileID: 258367632}
 --- !u!1 &268408653

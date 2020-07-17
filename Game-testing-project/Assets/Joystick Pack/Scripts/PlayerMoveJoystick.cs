@@ -8,13 +8,12 @@ using UnityEngine.UI;
 public class PlayerMoveJoystick : MonoBehaviour
 {
     private float horizontalMove = 0f;
-    private float verticalMove = 0f;
     public Joystick joystick;
 
     Rigidbody2D Personaje;
 
-    public float caminar = 1.25f;
-    public float saltar = 5f;
+    public float caminar = 2.5f;
+    public float saltar = 11f;
 
     float posX, posY;
     public SpriteRenderer spriterenderer;
